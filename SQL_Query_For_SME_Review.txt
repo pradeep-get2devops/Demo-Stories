@@ -1,26 +1,26 @@
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `directions`  `directions` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `directions`  `directions` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `questionStatement`  `questionStatement` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `questionStatement`  `questionStatement` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `answerA`  `answerA` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `answerA`  `answerA` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `answerB`  `answerB` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `answerB`  `answerB` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `answerC`  `answerC` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `answerC`  `answerC` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `answerD`  `answerD` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `answerD`  `answerD` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `answerE`  `answerE` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `answerE`  `answerE` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `comment`  `comment` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `comment`  `comment` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-ALTER TABLE  `QB_FORKLIFTSET3_1`  CHANGE  `passage`  `passage` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
+ALTER TABLE  `QB_FORKLIFTSETTHREE_1`  CHANGE  `passage`  `passage` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL; 
 
-INSERT INTO `content_review`.`reviewConfig` (`module_id`, `module_name`, `module_version`, `assignment`, `prefilled`, `need_review`, `need_ratings`, `showCorrectAnswer`, `language`, `allowComment`) VALUES ('FORKLIFTSET3', 'FORKLIFTSET3', '1', 'FORKLIFTSET3', '1', '1', '1', '0', 'English', '1'); 
+INSERT INTO `content_review`.`reviewConfig` (`module_id`, `module_name`, `module_version`, `assignment`, `prefilled`, `need_review`, `need_ratings`, `showCorrectAnswer`, `language`, `allowComment`) VALUES ('FORKLIFTSETTHREE', 'FORKLIFTSETTHREE', '1', 'FORKLIFTSETTHREE', '1', '1', '1', '0', 'English', '1'); 
 
  
 
-INSERT INTO `content_review`.`assignment` (`assignment`, `question1`, `question2`, `question3`, `question4`, `question5`, `question6`, `question7`, `question8`, `question9`, `question10`, `question11`, `question12`, `question13`, `question14`, `question15`, `question16`, `question17`, `question18`, `question19`, `question20`, `question21`, `question22`, `question23`, `module_id`, `version`) VALUES ('FORKLIFTSET3', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'FORKLIFTSET3', '1'); 
+INSERT INTO `content_review`.`assignment` (`assignment`, `question1`, `question2`, `question3`, `question4`, `question5`, `question6`, `question7`, `question8`, `question9`, `question10`, `question11`, `question12`, `question13`, `question14`, `question15`, `question16`, `question17`, `question18`, `question19`, `question20`, `question21`, `question22`, `question23`, `module_id`, `version`) VALUES ('FORKLIFTSETTHREE', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'FORKLIFTSETTHREE', '1'); 
 
 
 
